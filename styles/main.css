@@ -1,0 +1,10 @@
+header {
+    border: 2rem dotted fuchsia;
+    background-image: url(../img/1884908_indianDiversity_4K_Texture.jpg);
+    height: 200px;
+}
+
+.header__img {
+    display: block;
+    margin: 5rem auto;
+}
