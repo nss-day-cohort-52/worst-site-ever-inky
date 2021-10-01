@@ -1,4 +1,5 @@
 @import url(navbar.css);
+@import url(body_paragraph.css);
 
 header {
     border: 2rem dotted fuchsia;
@@ -10,3 +11,4 @@ header {
     display: block;
     margin: 5rem auto;
 }
+
