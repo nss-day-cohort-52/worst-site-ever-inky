@@ -1,13 +1,8 @@
 @import url(navbar.css);
 @import url(footer.css);
 
-footer {
-    position: fixed;
-    height: 200px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    margin-bottom: 0px;
+.footer {
+    position: relative;
 }
 
 .footer__bg {
@@ -18,8 +13,8 @@ footer {
     opacity: .5;
     position: fixed;
     right: -50%;
-    top: 85%;
-    z-index: -1;
+    top: 0%;
+    z-index: -20;
 }
   
 .footer__bg2 {
