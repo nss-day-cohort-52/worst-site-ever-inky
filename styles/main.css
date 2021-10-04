@@ -5,12 +5,6 @@ body {
     margin: 0;
 }
 
-main {
-    margin: 0;
-    background-image: url(../img/tackytouriststormtroopers.jpg);
-    height: 100%;
-}
-
 header {
     border: 2rem dotted fuchsia;
     background-image: url(../img/1884908_indianDiversity_4K_Texture.jpg);
@@ -20,4 +14,16 @@ header {
 .header__img {
     display: block;
     margin: 5rem auto;
+}
+
+.background_images {
+    background: url(../img/tackytouriststormtroopers.jpg) repeat-x center center fixed;
+    /* padding: 25rem 0; */
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: -10;
 }
